@@ -1,0 +1,133 @@
+header, nav, main, footer {
+  display: block;
+}
+
+body {
+  background-color: #82CAFF;
+  color: #191970;
+  font-family: Verdana, Arial, sans-serif;
+}
+
+header {
+  background-color: #191970;
+  color: #FFFFFF;
+  font-family: Georgia, serif;
+}
+
+h1 {
+  line-height: 300%;
+  padding-left: 1em;
+  height: 72px;
+  margin-bottom: 0;
+}
+
+nav {
+  font-weight: bold;
+  padding: 0;
+  float: left;
+  width: 150px
+}
+
+nav ul {
+  list-style-type: none;
+  padding-left: 1em
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav a:link {
+  color: #FFFFFF;
+}
+
+nav a:hover {
+  color: #FFFFFF;
+}
+
+h2 {
+  color: #191970
+}
+
+h3 {
+  color: #191970;
+}
+
+footer {
+  font-size: .60em;
+  font-style: italic;
+  text-align: center;
+  padding: 1em;
+  background-color: #191970;
+  color: #FFFFFF;
+  margin-left: 160px;
+}
+
+main {
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 1px;
+  padding-top: 1em;
+  background-color: #FFFFFF;
+  margin-left: 160px;
+  display: block;
+}
+
+#homehero {
+  height: 669px;
+  background-image: url(redchair.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  margin-left: 160px;
+}
+
+@media only all and (max-width: 768px) {
+  h1 {
+    height: 100%;
+    font-size: 1.0em;
+    padding-left: 0.1em;
+  }
+
+  nav {
+    padding: 0;
+  }
+
+  nav a {
+    display: block;
+    padding: 0.3em;
+    font-size: 1.1em;
+  }
+
+  nav ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  nav li {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+
+  main {
+    padding-top: 0.1em;
+    padding-right: 0.5em;
+    padding-bottom: 0.1em;
+    padding-left: 0.3em;
+  }
+
+  #homehero {
+    display: none;
+  }
+
+  footer {
+    padding: 0;
+  }
+
+  #mobile {
+    display: inline;
+  }
+
+  #desktop {
+    display: none;
+  }
